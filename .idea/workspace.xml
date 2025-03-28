@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d1b5102-5836-4a46-a557-c4786784f68d" name="Changes" comment="Section four - pytest framework additional test added">
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="4d1b5102-5836-4a46-a557-c4786784f68d" name="Changes" comment="PD-528 - Section 5 - advanced framework">
+      <change afterPath="$PROJECT_DIR$/tests/test_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/pytest_run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/pytest_run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_negative.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login_sucess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_sucess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in test_login_negative.py.executor": "Run",
-    "Python tests.Python tests in test_login_sucess.py.executor": "Run",
-    "Python tests.pytest run.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_login_negative.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_login_sucess.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="SeleniumWebDriverProject" is-module-sdk="true">
@@ -99,7 +100,8 @@
       <workItem from="1742470412925" duration="2973000" />
       <workItem from="1742486671726" duration="11000" />
       <workItem from="1743080133336" duration="1360000" />
-      <workItem from="1743081597011" duration="5326000" />
+      <workItem from="1743081597011" duration="5992000" />
+      <workItem from="1743171456678" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -133,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742478861878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PD-528 - Section 5 - advanced framework">
+      <option name="closed" value="true" />
+      <created>1743088317438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743088317438</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,11 +154,12 @@
     <MESSAGE value="Section three complete" />
     <MESSAGE value="Section four - pytest framework added" />
     <MESSAGE value="Section four - pytest framework additional test added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section four - pytest framework additional test added" />
+    <MESSAGE value="PD-528 - Section 5 - advanced framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="PD-528 - Section 5 - advanced framework" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumWebDriverProject$.coverage" NAME=" Coverage Results" MODIFIED="1742478310071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/SeleniumWebDriverProject$pytest_run.coverage" NAME="pytest run Coverage Results" MODIFIED="1743087909489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SeleniumWebDriverProject$pytest_run.coverage" NAME="pytest run Coverage Results" MODIFIED="1743174979139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/SeleniumWebDriverProject$main.coverage" NAME="main Coverage Results" MODIFIED="1742396580355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
