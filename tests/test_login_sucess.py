@@ -1,7 +1,6 @@
 import pytest
-import time
-
-from selenium.webdriver.common.by import By
+from page_objects.login_page import LoginPage
+from page_objects.login_success_page import LoggedInSuccessfullyPage
 
 
 class TestPositiveScenarios:
@@ -9,34 +8,15 @@ class TestPositiveScenarios:
     @pytest.mark.positive
     def test_login(self, driver):
         # Navigate to webpage
-        driver.get("https://practicetestautomation.com/practice-test-login/")
 
-        #//input[@id='username']
-        #
-        #/html//input[@id='password']
-        time.sleep(2)
-        #Type username student into Username field
-        username_locator = driver.find_element(By.ID, "username")
+        login_page = LoginPage(driver)
 
-        username_locator.send_keys("student")
+        login_page.open()
 
-        #Type password Password123 into Password field
-        password_locator = driver.find_element(By.NAME, "password")
-        password_locator.send_keys("Password123")
-        #Push Submit button
-        submit_locator = driver.find_element(By.XPATH, "//button[@class='btn']")
-        submit_locator.click()
-        time.sleep(2)
+        login_page.execute_login("username", "Password123")
 
-        #Verify new page URL contains practicetestautomation.com/logged-in-successfully/
-        actual_url = driver.current_url
-        assert actual_url == "https://practicetestautomation.com/logged-in-successfully/"
+        logged_in_page = LoggedInSuccessfullyPage(driver)
 
-        login_message_locator = driver.find_element(By.TAG_NAME, "h1")
-        actual_text = login_message_locator.text
-        assert actual_text == "Logged In Successfully"
-        #Verify new page contains expected text ('Congratulations' or 'successfully logged in')
-
-        logout_button_selector = driver.find_element(By.LINK_TEXT, "Log out")
-        assert logout_button_selector.is_displayed()
-        #Verify button Log out is displayed on the new page
+        assert logged_in_page.expected_url == logged_in_page.current_url, "Actual URL is not the same as expected"
+        assert logged_in_page.header == "Logged In Successfully", "Header is not expected"
+        assert logged_in_page.is_logout_button_displayed(), "Logout button should be visible"

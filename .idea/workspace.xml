@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d1b5102-5836-4a46-a557-c4786784f68d" name="Changes" comment="PD-528 - Section 5 - advanced framework">
-      <change afterPath="$PROJECT_DIR$/tests/test_exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/pytest_run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/pytest_run.xml" afterDir="false" />
+    <list default="true" id="4d1b5102-5836-4a46-a557-c4786784f68d" name="Changes" comment="PD-529 - Section 6 - Waits and Exceptions">
+      <change afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/exceptions_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/login_success_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_negative.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login_sucess.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login_sucess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,9 @@
       <workItem from="1742486671726" duration="11000" />
       <workItem from="1743080133336" duration="1360000" />
       <workItem from="1743081597011" duration="5992000" />
-      <workItem from="1743171456678" duration="4253000" />
+      <workItem from="1743171456678" duration="4309000" />
+      <workItem from="1743414320040" duration="13000" />
+      <workItem from="1744280528824" duration="3739000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -143,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743088317438</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PD-529 - Section 6 - Waits and Exceptions">
+      <option name="closed" value="true" />
+      <created>1743178333805</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743178333805</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +166,8 @@
     <MESSAGE value="Section four - pytest framework added" />
     <MESSAGE value="Section four - pytest framework additional test added" />
     <MESSAGE value="PD-528 - Section 5 - advanced framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="PD-528 - Section 5 - advanced framework" />
+    <MESSAGE value="PD-529 - Section 6 - Waits and Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="PD-529 - Section 6 - Waits and Exceptions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumWebDriverProject$.coverage" NAME=" Coverage Results" MODIFIED="1742478310071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
